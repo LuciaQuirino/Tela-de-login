@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
     crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a8b078765b.js" crossorigin="anonymous"></script>
+
     <title>Tela de login</title>
 </head>
 
@@ -20,15 +22,28 @@
         <div class="card p-3 bg-white" id="pain">
             <div class="card-body justify-content-start">
                 <div class="form-group row">
-                    <label for="nome">Nome</label>
+                    <label for="nome">
+                        
+                        <i class="far fa-user mr-2"></i>
+                        Nome
+                    </label>
+                    
                     <input required type="text" class="form-control" name="name" id="nome" placeholder="Jose da silva">
                 </div>
                 <div class="form-group row">
-                    <label for="email">E-mail</label>
+                    <label for="email"> 
+                        <i class="far fa-envelope mr-2"></i>
+                        E-mail
+                    </label>
+
                     <input required type="email" class="form-control" name="email" id="email" placeholder="josesilva@example.com">
                 </div>
                 <div class="form-group  row">
-                    <label for="senha">Senha</label>
+                    <label for="senha">
+                        <i class="fas fa-lock mr-2"></i>
+                        Senha
+                    </label>
+
                     <input required maxlength="8" minlength="6" type="password" class="form-control" name="senha" id="senha" placeholder="Até 8 digitos">
                 </div>
 
